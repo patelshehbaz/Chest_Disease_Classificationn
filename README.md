@@ -11,36 +11,33 @@ git clone https://github.com/patelshehbaz/Chest_Disease_Classificationn.git
 
 ```
 
+```
 conda create -n chest python=3.8 -y
 
 ```
 
 ```
-
 conda activate chest
 
 ```
 
 ```
-
 pip install -r requirements.txt
 
 ```
 
 ```
-
 python app.py
-
 ```
 
 🛠 Tech Stack:
 
-* TensorFlow Framework: For building and training our deep learning model.
-* Python: The core programming language that powered our project.
-* MLflow: This was invaluable for tracking experiments, comparing different models, and hyperparameter tuning, ensuring we always had the best performing model.
-* DVC (Data Version Control): Our go-to MLOps tool for efficient pipeline tracking. It was crucial for maintaining our project's integrity over time.
-* Google Drive: Our choice for data ingestion, facilitating seamless access to our dataset for training and validation.
-* Flask: Used to develop the web application interface for interacting with our model, making it accessible to users and researchers.
+- TensorFlow Framework: For building and training our deep learning model.
+- Python: The core programming language that powered our project.
+- MLflow: This was invaluable for tracking experiments, comparing different models, and hyperparameter tuning, ensuring we always had the best performing model.
+- DVC (Data Version Control): Our go-to MLOps tool for efficient pipeline tracking. It was crucial for maintaining our project's integrity over time.
+- Google Drive: Our choice for data ingestion, facilitating seamless access to our dataset for training and validation.
+- Flask: Used to develop the web application interface for interacting with our model, making it accessible to users and researchers.
 
 ### Workflows
 
@@ -52,7 +49,6 @@ python app.py
 6. Update the pipeline
 7. Update the main.py
 8. Update the dvc.yaml
-
 
 ### Mlflow dagshub connection uri
 
@@ -92,7 +88,5 @@ export MLFLOW_TRACKING_PASSWORD=\***\*\*\*\*\*\*\***\*\*\***\*\*\*\*\*\*\***
 dvc init
 dvc repro
 dvc dag
-
-```
 
 ```
