@@ -39,6 +39,14 @@ python app.py
 - Google Drive: Our choice for data ingestion, facilitating seamless access to our dataset for training and validation.
 - Flask: Used to develop the web application interface for interacting with our model, making it accessible to users and researchers.
 
+Deployement Techstack:
+
+- AWS EC2 (Elastic Compute Cloud)
+- AWS ECR (Elastic Container Registry)
+- Docker
+- GitHub
+- Jenkins (CI/CD)
+
 ### Workflows
 
 1. Update config.yaml
